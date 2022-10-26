@@ -9,7 +9,7 @@ const { MUMBAI_RPC_URL, GOERLI_RPC_URL, PRIVATE_KEY } = process.env;
 // console.log(MUMBAI_RPC_URL, GOERLI_RPC_URL, PRIVATE_KEY)
 module.exports = {
    solidity: "0.7.3",
-   defaultNetwork: "goerli",
+   defaultNetwork: "hardhat",
    networks: {
       hardhat: {},
       goerli: {
